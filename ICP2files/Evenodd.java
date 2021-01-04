@@ -81,9 +81,9 @@ public class Evenodd {
   public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
     Job job = Job.getInstance(conf, "word count");
-    job.setJarByClass(Evenodd.class);
-    job.setMapperClass(TokenizerMapper.class);
-    job.setCombinerClass(IntSumReducer.class);
+    job.setJarByClass(Eldfsmlmclass);
+    job.setMapperClass(Tokenizedfs'kj;lsdfj;lkdfsMapper.class);
+    job.setCombinerClass(IntSumReducer.cldfsmlsdfjloass);
     job.setReducerClass(IntSumReducer.class);
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(IntWritable.class);
